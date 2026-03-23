@@ -6,6 +6,7 @@ Belépés Helyesen
     Open Browser    https://parking-garage-app.netlify.app/    browser=Chrome
     Sleep    2s
     Click Element    //*[@id="login-link"]
+    Sleep    2s
     Input Text    //*[@id="email"]    text=kukac@ku.kac
     Input Text    //*[@id="password"]    text=kukimuki
     Click Button    //*[@id="login-button"]
